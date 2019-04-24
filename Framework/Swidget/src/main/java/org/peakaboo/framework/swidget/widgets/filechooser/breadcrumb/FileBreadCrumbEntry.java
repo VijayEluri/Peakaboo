@@ -1,13 +1,13 @@
-package org.peakaboo.framework.swidget.dialogues.fileio.breadcrumb;
+package org.peakaboo.framework.swidget.widgets.filechooser.breadcrumb;
 
 import java.io.File;
 import java.util.function.Function;
 
-import org.peakaboo.framework.swidget.dialogues.fileio.places.Place;
-import org.peakaboo.framework.swidget.dialogues.fileio.places.Places;
 import org.peakaboo.framework.swidget.widgets.breadcrumb.BreadCrumb;
 import org.peakaboo.framework.swidget.widgets.breadcrumb.BreadCrumbEntry;
 import org.peakaboo.framework.swidget.widgets.buttons.ToggleImageButton;
+import org.peakaboo.framework.swidget.widgets.filechooser.places.Place;
+import org.peakaboo.framework.swidget.widgets.filechooser.places.Places;
 
 public class FileBreadCrumbEntry extends BreadCrumbEntry<File> {
 
